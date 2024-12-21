@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forecast</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1 class="superText">Application works only for phones</h1>
+    <h1 class="superText">Приложение работате только на телефонах</h1>
+
+
+    <header class="header">
+        <div class="logo">
+            <i class="fa-solid fa-cloud"></i>
+        </div>
+        <div class="logoRain">
+            <i class="fa-solid fa-cloud-rain"></i>
+        </div>
+        <nav class="nav">
+            <a class="api" href="">APIWeather</a>
+            <a class="changeLan" href="http://192.168.1.100:5500/index-2.html" target="_blank">Rus</a>
+            <a class="contact" href="./https://t.me/krutoiy" target="_blank">contact</a>
+        </nav>
+    </header>
+    <div class="weather">
+        <div class="group">
+            <input class="inpt" type="text" placeholder="Country">
+            <button class="btn">Generate</button>
+        </div>
+        <div class="weather__info">
+            
+        </div>
+    </div>
+    <br><br><br><br><br><br>
+    <div class="comments">
+        <input class="inptName" type="text" placeholder="Your name">
+        <textarea class="inptComment" name="" id="" placeholder="Your comment" spellcheck="false"></textarea>
+        <button class="btnSend">Send</button>
+        <button class="btnDel">Delete</button>
+        <ul class="resultComment">
+            
+        </ul>
+    </div>
+    <br><br><br><br>
+    <footer class="footer">
+        <h2 class="author">tg : @krutoiy</h2>
+        <p class="prava">Your privacy is in safety !</p>
+    </footer>
+    <script src="https://kit.fontawesome.com/6d7cb93199.js" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>

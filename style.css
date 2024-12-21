@@ -1,0 +1,319 @@
+body{
+    background-color: black;
+}
+.superText{
+    color: white;
+    font-family: "Rubik", sans-serif;
+    text-align: center;
+    margin: 200px 0;
+    user-select: none
+}
+.footer{
+    display: none;
+}
+.comments{
+    display: none;
+}
+.header{
+    display: none;
+}
+.weather{
+    display: none;
+}
+/* .inpt{
+    background-color: rgb(236, 236, 236);
+    border: 3px solid rgb(88, 88, 248); 
+    padding: 10px;
+    opacity: 60%;
+    transition: 0.5s;
+}
+.inpt::placeholder{
+    color: rgb(88, 88, 248);
+}
+
+.inpt:hover{
+    border-radius: 20px;
+}
+
+.group{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+
+.btn{
+    color: rgb(236, 236, 236);
+    background-color: rgb(88, 88, 249);
+    border-radius: 30px;
+    border: none;
+    padding: 10px;
+    transition: 0.5s;
+}
+.btn:hover{
+    background-color: rgb(236, 236, 236);
+    color: rgb(88, 88, 249);
+    cursor: pointer;
+    border-radius: 0px;
+}
+
+.weather{
+    height: 96vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.weather__info{
+    width: 250px;
+    text-align: center;
+    transition: 2s;
+    box-shadow: 0px 5px 6px rgb(247, 255, 6);
+    opacity: 0%;
+}
+.weather__info.hov{
+    border: 5px solid rgb(253, 255, 201);
+    border-radius: 20px;
+    opacity: 100%;
+}
+
+.nameCountryClass{
+    font-family: "Rubik", sans-serif;
+    color: rgb(253, 255, 201);
+    text-shadow: 1px 1px 3px rgba(40, 37, 1, 0.912);
+    transition: 1s;
+} */
+
+@media (min-width: 300px) and (max-width: 600px) {
+    body{
+        display: block;
+        background: url(./blue-color-water-is-from-oceanclean-blue-sky-with-very-beautiful-white-clouds-m_432516-20506.avif);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .superText{
+        display: none;
+    }
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .inpt{
+        background-color: rgb(236, 236, 236);
+        border: 3px solid rgb(88, 88, 248); 
+        padding: 10px;
+        opacity: 60%;
+        transition: 0.5s;
+    }
+    .inpt::placeholder{
+        color: rgb(88, 88, 248);
+    }
+
+    .inpt:hover{
+        border-radius: 20px;
+    }
+
+    .group{
+        padding-top: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .btn{
+        color: rgb(236, 236, 236);
+        background-color: rgb(88, 88, 249);
+        border-radius: 30px;
+        border: none;
+        padding: 10px;
+        transition: 0.5s;
+    }
+    .btn:hover{
+        background-color: rgb(236, 236, 236);
+        color: rgb(88, 88, 249);
+        cursor: pointer;
+        border-radius: 0px;
+    }
+
+    .weather{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .weather__info{
+        width: 250px;
+        text-align: center;
+        transition: 2s;
+        box-shadow: 0px 5px 6px rgb(247, 255, 6);
+        opacity: 0%;
+        user-select: none;
+        font-family: "Rubik", sans-serif;
+    }
+    .weather__info.hov{
+        border: 5px solid rgb(253, 255, 201);
+        border-radius: 20px;
+        opacity: 100%;
+    }
+
+    .nameCountryClass{
+        font-family: "Rubik", sans-serif;
+        color: rgb(253, 255, 201);
+        text-shadow: 1px 1px 3px rgba(40, 37, 1, 0.912);
+        transition: 1s;
+    }
+    
+    .logo{
+        font-size: 45px;
+        padding: 10px;
+        color: white;
+    }
+    .logo.changeLogo{
+        color: black;
+        display: block;
+    }
+    .logo.changeFacloud{
+        display: none;
+    }
+
+
+    .logoRain{
+        display: none;
+        opacity: 0;
+        font-size: 45px;
+        padding: 10px;
+    }
+    .logoRain.changeFacloud{
+        display: block;
+    }
+
+    .nav{
+        display: flex;
+        align-items: end;
+        justify-content: space-around;
+        width: 250px;
+    }
+    .api {
+        text-decoration: none;
+        font-family: "Rubik", sans-serif;
+        color: black;
+    }
+    .changeLan{
+        text-decoration: none;
+        font-family: "Rubik", sans-serif;
+        color: black;
+    }
+    .author{
+        font-family: "Rubik", sans-serif;
+        color: rgb(253, 255, 201);
+    }
+    .comments{
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        flex-direction: column;
+    }
+    .inptName{
+        background-color: rgb(236, 236, 236);
+        border: 3px solid rgb(88, 88, 248); 
+        padding: 10px;
+        opacity: 60%;
+        transition: 0.5s;
+    }
+    .inptName::placeholder{
+        color: rgb(88, 88, 248);
+    }
+
+    .inptName:hover{
+        border-radius: 20px;
+    }
+    .inptComment{
+        background-color: rgb(236, 236, 236);
+        border: 3px solid rgb(88, 88, 248); 
+        padding: 10px;
+        opacity: 60%;
+        transition: 0.2s;
+    }
+    .inptComment::placeholder{
+        color: rgb(88, 88, 248);
+    }
+
+    .inptComment:hover{
+        border-radius: 20px;
+    }
+    .footer{
+        display: block;
+        background-color: black;
+        opacity: 70%;
+    }
+    .contact {
+        text-decoration: none;
+        font-family: "Rubik", sans-serif;
+        color: black;
+    }
+    .prava{
+        font-family: "Rubik", sans-serif;
+        color: rgb(253, 255, 201);
+    }
+    .resultComment{
+        background-color: rgb(0, 0, 0);
+        opacity: 60%;
+        display: none;
+        width: 200px;
+        height: 200px;
+        color: white;
+        font-family: "Rubik", sans-serif;
+        overflow-y: scroll;
+        list-style: none;
+    }
+    .resultComment.resultComm{
+        display: block;
+    }
+    .styleName{
+        color: white;
+        font-family: "Rubik", sans-serif;
+    }
+    .styleComment{
+        color: white;
+        font-family: "Rubik", sans-serif;
+    }
+    .btnSend{
+        color: rgb(236, 236, 236);
+        background-color: rgb(88, 88, 249);
+        border-radius: 30px;
+        border: none;
+        padding: 10px;
+        transition: 0.5s;
+    }
+    .btnSend:hover{
+        background-color: rgb(236, 236, 236);
+        color: rgb(88, 88, 249);
+        cursor: pointer;
+        border-radius: 0px;
+    }
+
+    .btnDel{
+        color: rgb(236, 236, 236);
+        background-color: rgb(88, 88, 249);
+        border-radius: 30px;
+        border: none;
+        padding: 10px;
+        transition: 0.5s;
+        margin-top: 5px;
+        margin-bottom: 30px;
+    }
+    .btnDel:hover{
+        background-color: rgb(236, 236, 236);
+        color: rgb(88, 88, 249);
+        cursor: pointer;
+        border-radius: 0px;
+    }
+
+}
